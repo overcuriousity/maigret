@@ -7218,8 +7218,7 @@
             "url": "https://gramho.com/explore-hashtag/{username}",
             "source": "Instagram",
             "usernameClaimed": "adam",
-            "usernameUnclaimed": "noonewouldeverusethis7",
-            "disabled": true
+            "usernameUnclaimed": "noonewouldeverusethis7"
         },
         "Gravatar": {
             "tags": [
@@ -7885,6 +7884,7 @@
             "usernameUnclaimed": "noonewouldeverusethis7"
         },
         "ICQ": {
+            "disabled": true,
             "tags": [
                 "ch",
                 "ru",
@@ -8122,6 +8122,7 @@
             "usernameUnclaimed": "noonewouldeverusethis7"
         },
         "Infura": {
+            "disabled": true,
             "tags": [
                 "forum",
                 "kr",
@@ -9735,7 +9736,8 @@
         "Magix": {
             "checkType": "message",
             "absenceStrs": [
-                "(404 - Page not found.)"
+                "(404 - Page not found.)",
+                "You need to sign in to your account"
             ],
             "alexaRank": 168753,
             "urlMain": "https://www.magix.info",
@@ -11885,6 +11887,7 @@
             "usernameUnclaimed": "noonewouldeverusethis7"
         },
         "PacketStormSecurity": {
+            "disabled": true,
             "tags": [
                 "in",
                 "tr",
@@ -12136,6 +12139,7 @@
             "usernameUnclaimed": "noonewouldeverusethis7"
         },
         "Pepper": {
+            "disabled": true,
             "tags": [
                 "ru"
             ],
@@ -12289,7 +12293,9 @@
             "absenceStrs": [
                 "<title>Error 500</title>",
                 "<title>Error 404</title>",
-                "Checking if the site connection is secure"
+                "Checking if the site connection is secure",
+                "Nothing found!",
+                "Unfortunately, the content does not exist."
             ],
             "alexaRank": 2255,
             "urlMain": "https://www.picuki.com/",
@@ -12327,7 +12333,10 @@
                 "in",
                 "us"
             ],
-            "checkType": "status_code",
+            "checkType": "message",
+            "absenceStrs": [
+                "Only registered users can view this page."
+            ],
             "alexaRank": 35914,
             "urlMain": "http://pinboard.in",
             "url": "http://pinboard.in/u:{username}",
@@ -12429,7 +12438,8 @@
             ],
             "checkType": "message",
             "absenceStrs": [
-                "\u041d\u0435 \u0443\u043a\u0430\u0437\u0430\u043d \u043a\u043e\u0434 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f."
+                "\u041d\u0435 \u0443\u043a\u0430\u0437\u0430\u043d \u043a\u043e\u0434 \u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044f.",
+                "The requested URL was not found on this server."
             ],
             "alexaRank": 49133,
             "urlMain": "https://www.planetaexcel.ru",
@@ -13225,7 +13235,8 @@
             ],
             "checkType": "message",
             "absenceStrs": [
-                "User does not exist"
+                "User does not exist",
+                "User not found"
             ],
             "alexaRank": 229543,
             "urlMain": "https://rpggeek.com",
@@ -13504,7 +13515,8 @@
             "regexCheck": "^[a-zA-Z]+$",
             "checkType": "message",
             "absenceStrs": [
-                "Sorry, but we either:"
+                "Sorry, but we either:",
+                "h2>Sorry, but we either:</h2"
             ],
             "alexaRank": 63145,
             "urlMain": "https://www.realmeye.com/",
@@ -17366,7 +17378,8 @@
             ],
             "checkType": "message",
             "absenceStrs": [
-                "<title>VEGAS Community"
+                "<title>VEGAS Community",
+                "You need to sign in to your account"
             ],
             "urlMain": "https://www.vegascreativesoftware.info",
             "url": "https://www.vegascreativesoftware.info/us/users/profile/{username}/",
@@ -17404,7 +17417,9 @@
             ],
             "checkType": "message",
             "absenceStrs": [
-                "<title>Error Page - VERO\u2122 \u2013 True Social</title>"
+                "<title>Error Page - VERO\u2122 \u2013 True Social</title>",
+                "Not Found",
+                "Sorry, this page is not available."
             ],
             "alexaRank": 97361,
             "urlMain": "https://vero.co",
@@ -17477,7 +17492,7 @@
                 "method": "vimeo"
             },
             "headers": {
-                "Authorization": "jwt eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MzQxMTc1NDAsInVzZXJfaWQiOm51bGwsImFwcF9pZCI6NTg0NzksInNjb3BlcyI6InB1YmxpYyIsInRlYW1fdXNlcl9pZCI6bnVsbCwianRpIjoiNDc4Y2ZhZGUtZjI0Yy00MDVkLTliYWItN2RlNGEzNGM4MzI5In0.guN7Fg8dqq7EYdckrJ-6Rdkj_5MOl6FaC4YUSOceDpU"
+                "Authorization": "jwt eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MzQ0NzEwNjAsInVzZXJfaWQiOm51bGwsImFwcF9pZCI6NTg0NzksInNjb3BlcyI6InB1YmxpYyIsInRlYW1fdXNlcl9pZCI6bnVsbCwianRpIjoiYjAzN2Q3MGEtYTBkMy00M2NjLWIyZWEtMDdkMTFjODVlZjBjIn0.32RwvC-n4lnuQUeDllsDvFSc4gLhOUp1OA2qDwrgpkc"
             },
             "urlProbe": "https://api.vimeo.com/users/{username}?fields=name%2Cgender%2Cbio%2Curi%2Clink%2Cbackground_video%2Clocation_details%2Cpictures%2Cverified%2Cmetadata.public_videos.total%2Cavailable_for_hire%2Ccan_work_remotely%2Cmetadata.connections.videos.total%2Cmetadata.connections.albums.total%2Cmetadata.connections.followers.total%2Cmetadata.connections.following.total%2Cmetadata.public_videos.total%2Cmetadata.connections.vimeo_experts.is_enrolled%2Ctotal_collection_count%2Ccreated_time%2Cprofile_preferences%2Cmembership%2Cclients%2Cskills%2Cproject_types%2Crates%2Ccategories%2Cis_expert%2Cprofile_discovery%2Cwebsites%2Ccontact_emails&fetch_user_profile=1",
             "checkType": "status_code",
@@ -34340,7 +34355,16 @@
             "usernameUnclaimed": "noonewouldeverusethis7"
         },
         "Google Scholar": {
-            "checkType": "status_code",
+            "tags": [
+                "education"
+            ],
+            "checkType": "message",
+            "presenseStrs": [
+                "About"
+            ],
+            "absenceStrs": [
+                "did not match any articles"
+            ],
             "url": "https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q={username}&btnG=",
             "urlMain": "https://scholar.google.com/",
             "usernameClaimed": "Blue",
